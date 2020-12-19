@@ -1,0 +1,9 @@
+def main()
+  n=1
+    while n>=1 and n<= 5000000:
+        cont=cont +1
+        if n % 37 == 0 and n % 49 == 0:
+            conta_mult= conta_mult + 1
+    print(conta_mult)
+
+main()
