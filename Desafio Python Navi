@@ -1,9 +1,10 @@
-def main()
-  n=1
-    while n>=1 and n<= 5000000:
-        cont=cont +1
+def main():
+  
+  múltiplos = 0
+  cont = 0
+    for n in range (1, 5000001, 1):
         if n % 37 == 0 and n % 49 == 0:
-            conta_mult= conta_mult + 1
-    print(conta_mult)
-
-main()
+            cont = cont + 1
+            múltiplos = múltiplos + 1
+    
+    return múltiplos
