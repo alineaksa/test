@@ -7,4 +7,6 @@ def main():
             cont = cont + 1
             múltiplos = múltiplos + 1
     
-    return múltiplos
+    print(múltiplos)
+    
+main()
