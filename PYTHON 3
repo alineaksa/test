@@ -1,0 +1,20 @@
+A = input(float('insira nome do aluno 1'))
+B = input(float('insira nome do aluno 2'))
+C =input(float('insira nome do aluno 3'))
+D =input(float('insira nome do aluno 4'))
+E = input(float('insira nome do aluno 5'))
+N1 = input(str('insira nota aluno 1'))
+N2 = input(str('insira nota aluno 2'))
+N3 = input(str('insira nota aluno 3'))
+N4 = input(str('insira nota aluno 4'))
+N5 = input(str('insira nota aluno 5'))
+aluno_nota = {A:N1,B:N2,C:N2,D:N3,E:N4}
+if aluno_nota[0] < aluno_nota[1]:
+    nota_maior= aluno_nota[1]
+if aluno_nota[1] < aluno_nota[2]:
+    nota_maior= aluno_nota[2]
+if aluno_nota[2] < aluno_nota[3]:
+    nota_maior = aluno_nota[3]
+if aluno_nota[3] < aluno_nota[4]:
+    nota_maior = aluno_nota[4]
+print(nota_maior)
